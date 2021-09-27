@@ -1,0 +1,8 @@
+{
+    "name": "EChOes Gallery",
+    "description": "EChOes Gallery is a collection of nature images and blogs content about places that may disappear one day.",
+    "image": "https://raw.githubusercontent.com/BDU-NFT-Course/ECHOES-GALLERY/main/metadata/echoes-logo.png",
+    "external_link": "https://github.com/BDU-NFT-Course/ECHOES-GALLERY",
+    "seller_fee_basis_points": 100, 
+    "fee_recipient": "0x847680bF92f551a1429Fb921Ed2ee143620f8B5e" 
+  }
