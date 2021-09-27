@@ -1,0 +1,6 @@
+.secrets
+node_modules
+artifacts
+cache
+contracts/DevPunks.sol
+ideas

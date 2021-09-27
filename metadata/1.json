@@ -1,0 +1,12 @@
+{
+  "name": "The Art of Priorities",
+  "description": "Setting priorities comes from our imagination, skills and desires. We will choose priorities in different ways and neither one is right or wrong. It is an art that we can master.",
+  "image": "https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-wisdomhub/priorities/IMG.jpg",
+  "attributes": [
+    {
+      "trait_type": "Gallery", 
+      "value": "Wisdom Hub" 
+    }
+      ],
+    "blog": "https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-wisdomhub/priorities/README.md"
+}
