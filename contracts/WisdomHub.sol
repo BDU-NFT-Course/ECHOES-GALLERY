@@ -27,4 +27,9 @@ contract WisdomHub is ERC721 {
         totalSupply = _tokenIds.current();
         return newItemId;
     }
+    
+    function contractURI() public view returns (string memory) {
+        return "https://raw.githubusercontent.com/BDU-NFT-Course/ECHOES-GALLERY/main/metadata/contract-metadata.json";
+    }
+
 }
