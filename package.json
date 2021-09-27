@@ -1,7 +1,7 @@
 {
   "name": "WEEK-4",
   "version": "1.0.0",
-  "description": "",
+  "description": "This NFT is a gallery of images and blogs content about places that may disappear soon",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +12,14 @@
   "devDependencies": {
     "@openzeppelin/contracts": "^4.3.2",
     "hardhat": "^2.6.4"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BDU-NFT-Course/ECHOES-GALLERY.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BDU-NFT-Course/ECHOES-GALLERY/issues"
+  },
+  "homepage": "https://github.com/BDU-NFT-Course/ECHOES-GALLERY#readme"
 }
