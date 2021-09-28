@@ -53,7 +53,25 @@ module.exports = {
 };
 ```
 
-## Create and compile a contract
+## Contracts
+
+We will need these packages
+```
+npm install --save-dev @openzeppelin/contracts
+npm install --save-dev @nomiclabs/hardhat-ethers ethers
+npm install --save-dev @nomiclabs/hardhat-etherscan
 ```
 
+Compile, deploy and run
+```
+npx hardhat compile
+npx hardhat run scripts/deploy.js 
+# save the contract address outputed by deploy.js
+```
+
+Check the contract etherscan: https://rinkeby.etherscan.io/address/<contract_address>
+
+Verify the contract
+```
+npx hardhat verify --network rinkeby <contract_address>
 ```

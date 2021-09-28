@@ -3,7 +3,9 @@
  */
 
 require('@nomiclabs/hardhat-ethers');
-const { alchemyAPIKey, ethereumAccount } = require('./.secrets.json');
+require("@nomiclabs/hardhat-etherscan");
+
+const { alchemyAPIKey, ethereumAccount, etherscanAPIKey} = require('./.secrets.json');
 
 module.exports = {
   solidity: "0.8.4",
@@ -18,4 +20,7 @@ module.exports = {
       accounts: [ethereumAccount]
     }
   },
+  etherscan: {
+    apiKey: etherscanAPIKey
+  }
 };

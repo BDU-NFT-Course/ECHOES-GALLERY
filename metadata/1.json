@@ -6,7 +6,10 @@
     {
       "trait_type": "Gallery", 
       "value": "Wisdom Hub" 
+    },
+    {
+      "trait_type": "Blog URL",
+      "value":  "https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-wisdomhub/priorities/README.md"
     }
-      ],
-    "blog": "https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-wisdomhub/priorities/README.md"
+      ]
 }
