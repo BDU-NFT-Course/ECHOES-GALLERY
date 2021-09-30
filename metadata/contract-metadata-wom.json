@@ -1,8 +1,8 @@
 {
     "name": "Word Of Mouth",
-    "description": "",
-    "image": "",
-    "external_link": "https://github.com/BDU-NFT-Course/ECHOES-GALLERY",
+    "description": "Connecting artists",
+    "image": "https://raw.githubusercontent.com/BDU-NFT-Course/ECHOES-GALLERY/main/metadata/wordofmouth-logo.png",
+    "external_link": "https://www.instagram.com/jillianvalentin/",
     "seller_fee_basis_points": 100, 
     "fee_recipient": "0x847680bF92f551a1429Fb921Ed2ee143620f8B5e" 
   }
