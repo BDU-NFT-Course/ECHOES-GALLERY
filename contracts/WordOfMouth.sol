@@ -12,10 +12,8 @@ contract WordOfMouth is ERC1155, Ownable {
     uint256 public constant INNOVATION = 1;
     uint256 public constant VOICE = 2;
  
-    constructor() ERC1155(""){
-       _mint(msg.sender, WISDOM, 1, "" );
-       _mint(msg.sender, INNOVATION, 2, "");
-       _mint(msg.sender, VOICE, 3, "");
+    constructor() ERC1155("https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-stones-erc1155/{id}.json"){
+        _mint(msg.sender,WISDOM,2,"");
     }
 
     function mint(address account, uint256 id, uint256 amount) public onlyOwner {
@@ -25,6 +23,10 @@ contract WordOfMouth is ERC1155, Ownable {
     function burn(address account, uint256 id, uint256 amount) public {
         require(msg.sender == account);
         _burn(account, id, amount);
+    }
+
+    function contractURI() public pure returns (string memory) {
+        return "https://raw.githubusercontent.com/BDU-NFT-Course/ECHOES-GALLERY/main/metadata/contract-metadata-wom.json";
     }
 
 }

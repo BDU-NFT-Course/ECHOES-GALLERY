@@ -1,0 +1,15 @@
+{
+	"name": "Self Portrait",
+	"description": "",
+	"image": "https://raw.githubusercontent.com/BDU-NFT-Course/NFT-Metadata/main/sample-stones-erc1155/0.jpg",
+	"attributes": [
+		{
+		"trait_type": "Artist", 
+		"value": "Jillian Valentin"
+	  }, 
+	  {
+		"trait_type": "One Word Inspiration", 
+		"value": "VOICE" 
+	  }
+		]
+  }
