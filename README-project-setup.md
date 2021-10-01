@@ -1,9 +1,10 @@
-# Notes on how the project was set up
+# Notes on project set up for development
 
 ## Set up Git Repo
 1. Set up empty repo on GitHub without license, readme or gitignore
-1. Set up gitHub your access keys
+1. Set up your gitHub access keys
 1. Create a folder on your system and initialize it for git
+1. Run the following commands inside the folder created in the previous step. Replace the github URL with the URL for your newly created repo.
 ```
 git init
 git add .
@@ -24,7 +25,8 @@ Set up .secrets.json
 ```
 {
     "alchemyAPIKey" : "https://eth-rinkeby.alchemyapi.io/v2/<rinkeby_private_key>",
-    "ethereumAccount" : "<rinkeby_account_secret_key>"
+    "ethereumAccount" : "<rinkeby_account_secret_key>",
+    "etherscanAPIKey" : "<etherscan_api_key>"
 }
 ```
 
@@ -35,7 +37,7 @@ Set up hardhat.config.js
  */
 
 require('@nomiclabs/hardhat-ethers');
-const { alchemyAPIKey, ethereumAccount } = require('./.secrets.json');
+const { alchemyAPIKey, ethereumAccount, etherscanAPIKey} = require('./.secrets.json');
 
 module.exports = {
   solidity: "0.8.4",
@@ -50,10 +52,13 @@ module.exports = {
       accounts: [ethereumAccount]
     }
   },
+  etherscan: {
+    apiKey: etherscanAPIKey
+  }
 };
 ```
 
-## Contracts
+## Work on a contract
 
 We will need these packages
 ```
@@ -75,3 +80,4 @@ Verify the contract
 ```
 npx hardhat verify --network rinkeby <contract_address>
 ```
+When verify completes successfully, it prints the eterscan URL for the contract. One can use the etherscan URL to interact with the cntract, i.e. create NFTs.
