@@ -1,5 +1,6 @@
 .secrets.json
 .secrets-pinata.json
+.secrets-rinkeby.json
 .secrets-polygon.json
 node_modules
 artifacts

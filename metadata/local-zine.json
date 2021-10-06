@@ -1,0 +1,8 @@
+{
+    "name": "Local Zine",
+    "description": "Local Zine - Volume I",
+    "image": "https://github.com/stateful-art/fanzine-metadata/blob/master/stateful-art-top.png",
+    "external_link": "https://github.com/stateful-art",
+    "seller_fee_basis_points": 100, 
+    "fee_recipient": "0xF2Bb8DCD9c246c03a42b029942DDD92Dd0Ea2302" 
+  }
